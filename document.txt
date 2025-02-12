@@ -1,0 +1,54 @@
+Documentation
+NAME: KUNAL U
+DATE: 24-12-2024
+
+Description: Arbitrary-precision arithmetic, also called big-num arithmetic, multiple precision arithmetic, 
+             or sometimes infinite-precision arithmetic, indicates that calculations are performed on numbers
+             whose digits of precision are limited only by the available memory of the host system.
+
+Sample input: ./a.out  123456776543 + 12345676543
+sample output:
+123456776543
++
+12345676543
+Perform Addition Successfully
+The Result is: 135802453086
+
+Sample input: ./a.out  123456776543 + -12345676543
+sample output:
+123456776543
+-
+12345676543
+Perform Subraction Successfully
+The result is: 111111100000
+
+Sample input: ./a.out  123456776543 - -12345676543
+sample output:
+123456776543
++
+12345676543
+Perform Addition Successfully
+The Result is: 135802453086
+
+Sample input: ./a.out  123456776543 X -12345676543
+sample output:
+123456776543
+X
+12345676543
+Perform Multiplication Successfully
+The Result is: -1524157430241307730849
+
+Sample input: ./a.out  ./a.out  123456776543 / 1234567654323456
+sample output:
+1234567654323456
+/
+123456776543
+Perform Division Successfully
+The result is: 0
+
+Sample input: ./a.out  12345678987654323456 X 98765432123567r
+sample output:
+Invalid arguments
+....................................
+Plese pass like: ./a.out <Operand1(only digits)> <Operator> <Operand2(only digits)>
+Exit Successfully
